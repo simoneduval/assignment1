@@ -5,11 +5,70 @@
 {% load url from future %}
 
 {% block content %}
-<h1>Gynmastics Athletes and Roster Info</h1>
-        <p>This new interactive development school has {{ athlete_count|intcomma }} athletes and with {{ best_count|intcomma }} personal bests.</p>
+<h1>Carolina Athletics</h1>
+       
+<!-- <p><a href="{%url 'roster_best_list' %}">List of Personal Bests</a></p> --> 
+<table id="table_id">
+    <thead>
+        <tr>
+            <th>Men</th>
+            <th>Women</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="#">Baseball</a></td><td><a href="{%url 'roster_athlete_list' %}">Gymnamstics</a></td>
+        </tr>
+         <tr>
+            <td><a href="#">Basketball</a></td><td><a href="#">Basketball</a></td>
+        </tr>
+         <tr>
+            <td><a href="#">Cross Country</a></td><td><a href="#">Cross Country</a></td>
+        </tr>
+         <tr>
+            <td><a href="#">Fencing</a></td><td><a href="#">Fencing</a></td>
+        </tr>
+         <tr>
+            <td><a href="#">Football</a></td><td><a href="#">Field Hockey</a></td>
+        </tr>
+         <tr>
+            <td><a href="#">Golf</a></td><td><a href="#">Golf</a></td>
+        </tr>
+         <tr>
+            <td><a href="#">Lacrosse</a></td><td><a href="#">Lacrosse</a></td>
+        </tr>
+         <tr>
+            <td><a href="#">Soccer</a></td><td><a href="#">Soccer</a></td>
+        </tr>
+         <tr>
+            <td><a href="#">Swimming & Diving</a></td><td><a href="#">Swimming & Diving</a></td>
+        </tr>
+         <tr>
+            <td><a href="#">Tennis</a></td><td><a href="#">Tennis</a></td>
+        </tr>
+         <tr>
+            <td><a href="#"></a></td><td><a href="#">Softball</a></td>
+        </tr>
+         <tr>
+            <td><a href="#"></a></td><td><a href="#">Rowing</a></td>
+        </tr>
+         <tr>
+            <td><a href="#"></a></td><td><a href="#">Track & Field</a></td>
+        </tr>
+         <tr>
+            <td><a href="#"></a></td><td><a href="#">Volleyball</a></td>
+        </tr>
 
-
-<p><a href="{%url 'roster_best_list' %}">List of Personal Bests</a></p>
-<p><a href="{%url 'roster_athlete_list' %}">List of Athletes</a></p>
+    </tbody>
+</table>
 
 {% endblock %}
+
+
+
+            
+   
+        
+            
+            
+        

@@ -63,7 +63,7 @@
         "pk":6,
         "model": "roster.Athlete",
         "fields":{
-            "name": "Jocelyn Mackey",
+            "name": "Josselyn Mackey",
             "position": "All-Around",
             "year": "Sophomore",
             "hometown": "Lee's Summit, MO",
