@@ -2,8 +2,14 @@
 
 {% extends "base.html"%}
 {% load humanize %}
+{% load url from future %}
 
 {% block content %}
-<h1>Students and Classes</h1>
-        <p>This new interactive development school has {{ student_count|intcomma }} students in {{ course_count|intcomma }} courses.</p>
+<h1>Gynmastics Athletes and Roster Info</h1>
+        <p>This new interactive development school has {{ athlete_count|intcomma }} athletes and with {{ best_count|intcomma }} personal bests.</p>
+
+
+<p><a href="{%url 'roster_best_list' %}">List of Personal Bests</a></p>
+<p><a href="{%url 'roster_athlete_list' %}">List of Athletes</a></p>
+
 {% endblock %}

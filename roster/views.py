@@ -1,54 +1,45 @@
 #FILE: roster/views.py
 # Create your views here.
-from django.shortcuts import render
-from roster.models import Course, Student
-from django.shortcuts import render, get_object_or_404, redirect, render_to_response
+from roster.models import Best, Athlete
+from django.shortcuts import render, get_object_or_404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 def home(request):
     context = {
-        'student_count': Student.objects.count(),
-        'course_count': Course.objects.count(),
+        'athlete_count': Athlete.objects.count(),
+        'best_count': Best.objects.count(),
     }
     return render(request, "roster/home.html", context)
 
-def course(request, pk):
-    #course = Course. objects.order_by('?')[0]
-    course = get_object_or_404(Course, id=pk)
-    return render(request, "roster/course.html", {'course': course})
+def best(request, pk):
+    #best = Best. objects.order_by('?')[0]
+    best = get_object_or_404(Best, id=pk)
+    return render(request, "roster/best.html", {'best': best})
 
-def courseList(request):
-    course_list = Course.objects.all()
-    paginator = Paginator(course_list, 25)
+def bestList(request):
+    best_list = Best.objects.all()
+    paginator = Paginator(best_list, 25)
     page = request.GET.get('page')
     try:
-        courses= paginator.page(page)
+        bests= paginator.page(page)
     except PageNotAnInteger:
         # If page is not an integer, deliver first page.
-        courses = paginator.page(1)
+        bests = paginator.page(1)
     except EmptyPage:
         # If page is out of range (e.g. 9999), deliver last page of results.
-        courses = paginator.page(paginator.num_pages)
-    return render_to_response('roster/course_list.html', {"courses": courses})
-
-def student(request, pk):
-    #student = Student.objects.order_by('?')[0]
-    student = get_object_or_404(Student, id=pk)
-    return render(request, "roster/student.html", {'student': student})
-
-def studentList(request):
-    #student = Student.objects.order_by('?')[0]
-    student_list = student.objects.all()
-    paginator = Paginator(student_list, 25)
-    page = request.GET.get('page')
-    try:
-        students=paginator.page(page)
-    except PageNotAnInteger:
-        #If page is not an integer, deliver first page
-        students = paginator.page(1)
-    except EmptyPage:
-        #If page is out of range (e.g. 9999), deliver last page of results.
-        students = paginator.page(paginator.num_pages)
+        bests = paginator.page(paginator.num_pages)
         
-    return render_to_response('roster/student_list.html', {"students": students})
+    return render(request, 'roster/best_list.html', {"bests": bests})
+
+def athlete(request, pk):
+    #athlete = Athlete.objects.order_by('?')[0]
+    athlete = get_object_or_404(Athlete, id=pk)
+    return render(request, "roster/athlete.html", {'athlete': athlete})
+
+def athleteList(request):
+    #athlete = Athlete.objects.order_by('?')[0]
+    athlete_list = Athlete.objects.all()
+    
+        
+    return render(request, 'roster/athlete_list.html', {"athletes": athlete_list})
     

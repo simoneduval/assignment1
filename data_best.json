@@ -1,0 +1,176 @@
+[
+    {
+        "pk":1,
+        "model": "roster.Best",
+        "fields":{
+            "name": "Kristen Aloi",
+            "position": "All-Around",
+            "vault": "9.800",
+            "uneven_bars": "",
+            "balance_beam": "9.775",
+            "floor_exercise": "9.875",
+            "all_around": "",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/VD/VDLSJRPEQPKBXWO.20131127180056.jpg"
+        }
+    },
+    {
+        "pk":2,
+ "model": "roster.Best",
+        "fields":{
+            "name": "Margaret Brown",
+            "position": "All-Around",
+            "vault": "",
+            "uneven_bars": "",
+            "balance_beam": "",
+            "floor_exercise": "",
+            "all_around": "",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/IJ/IJPTHEHODHWRTYF.20131127180056.jpg"
+        }
+    },
+    {
+        "pk":3,
+        "model": "roster.Best",
+        "fields":{
+            "name": "Lexi Cappalli",
+            "position": "All-Around",
+            "vault": "9.825",
+            "uneven_bars": "9.850",
+            "balance_beam": "",
+            "floor_exercise": "9.850",
+            "all_around": "",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/ZY/ZYJEMBOGCNECEZF.20131127180056.jpg"
+        }
+    },
+    {
+        "pk":4,
+       "model": "roster.Best",
+        "fields":{
+            "name": "Acacia Cosentino",
+            "position": "Uneven Bars, Floors Exercise",
+            "vault": "9.600",
+            "uneven_bars": "9.750",
+            "balance_beam": "",
+            "floor_exercise": "9.725",
+            "all_around": "",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/MQ/MQSGIZZODICUIKS.20131127180056.jpg"
+        }
+    },
+    {
+        "pk":5,
+        "model": "roster.Best",
+        "fields":{
+            "name": "Michelle Ikoma",
+            "position": "All-Around",
+            "vault": "9.775",
+            "uneven_bars": "9.850",
+            "balance_beam": "9.650",
+            "floor_exercise": "9.850",
+            "all_around": "38.425",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/SI/SIRQDWDCZTHIWCB.20131127180057.jpg"
+        }
+    },
+    {
+        "pk":6,
+        "model": "roster.Best",
+        "fields":{
+            "name": "Josselyn Mackey",
+            "position": "All-Around",
+            "vault": "9.600",
+            "uneven_bars": "9.800",
+            "balance_beam": "9.800",
+            "floor_exercise": "",
+            "all_around": "",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/MM/MMPOUVAEMBUTQCY.20131127180057.jpg"
+        }
+    },
+    {
+        "pk":7,
+        "model": "roster.Best",
+        "fields":{
+            "name": "Meredith Magjuka",
+            "position": "Balance Beam, Floor Exercise",
+            "vault": "9.7000",
+            "uneven_bars": "9.650",
+            "balance_beam": "9.850",
+            "floor_exercise": "9.800",
+            "all_around": "",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/GW/GWOJWYZKVZIHFXH.20131127180057.jpg"
+        }
+    },
+    {
+        "pk":8,
+        "model": "roster.Best",
+        "fields":{
+            "name": "Megan Marenghi",
+            "position": "Uneven Bars, Balance Beam",
+            "vault": "",
+            "uneven_bars": "",
+            "balance_beam": "",
+            "floor_exercise": "",
+            "all_around": "",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/EA/EASPLHGYHXVSREB.20131127180057.jpg"
+        }
+    },
+    {
+        "pk":9,
+        "model": "roster.Best",
+        "fields":{
+            "name": "Sarah Peterson",
+            "position": "All-Around",
+            "vault": "9.800",
+            "uneven_bars": "9.775",
+            "balance_beam": "",
+            "floor_exercise": "9.825",
+            "all_around": "",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/VO/VORSUWQJSZMXQQB.20131127180057.jpg"
+        }
+    },
+    {
+        "pk":10,
+        "model": "roster.Best",
+        "fields":{
+            "name": "Christina Pheil",
+            "position": "All-Around",
+            "vault": "",
+            "uneven_bars": "",
+            "balance_beam": "",
+            "floor_exercise": "",
+            "all_around": "",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/XG/XGVVMGKCUIEYTQC.20131127180057.jpg"
+        }
+    },
+     {
+        "pk":11,
+        "model": "roster.Best",
+        "fields":{
+            "name": "Janell Sargent",
+            "position": "Balance Beam",
+            "vault": "",
+            "uneven_bars": "",
+            "balance_beam": "9.900",
+            "floor_exercise": "",
+            "all_around": "",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/UV/UVTCREJCKAUOSTW.20131127180057.jpg"
+        }
+    },
+     {
+        "pk":10,
+        "model": "roster.Best",
+        "fields":{
+            "name": "Haley Watts",
+            "position": "All-Around",
+            "vault": "9.850",
+            "uneven_bars": "9.850",
+            "balance_beam": "9.775",
+            "floor_exercise": "9.850",
+            "all_around": "39.225",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/FV/FVCWIDURUBFOLEG.20131127180057.jpg"
+        }
+    }
+]
+
+
+
+
+
+

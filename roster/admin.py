@@ -1,14 +1,14 @@
 #FILE: roster/admin.py
 
 from django.contrib import admin
-from roster.models import Course, Student
+from roster.models import Best, Athlete
 
-class CourseAdmin(admin.ModelAdmin):
+class BestAdmin(admin.ModelAdmin):
     search_fields = ('name',)
     
-admin.site.register(Course, CourseAdmin)
+admin.site.register(Best, BestAdmin)
 
-class StudentAdmin(admin.ModelAdmin):
+class AthleteAdmin(admin.ModelAdmin):
     search_fields = ('name',)
     
-admin.site.register(Student, StudentAdmin)
+admin.site.register(Athlete, AthleteAdmin)

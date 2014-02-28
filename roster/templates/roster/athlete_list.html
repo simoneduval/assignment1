@@ -1,0 +1,42 @@
+<!-- new file: assignment1/roster/templates/roster/athlete_list.html -->
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>All Athletes</h2>
+    
+    <table id="table_id">
+    <thead>
+        <tr>
+            <th>Player Name</th>
+            <th>Player Position</th>
+            <th>Player Year</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            
+                {% for athlete in athletes %}
+                <!--Each "athlete" is an athlete model object. -->
+                <tr><td><a href="{{ athlete.id }}">{{ athlete.name }}</a></td><td> {{ athlete.position}} </td><td> {{ athlete.year }}</td></tr>
+                {% endfor %}
+            
+        
+    </tbody>
+</table>
+    
+ <!-- commenting out to try to see if works!   
+    <ul>
+        {% for athlete in athletes %}
+        <!--Each "athlete" is a athlete model object. -->
+ <!-- commenting out to see if works!       
+        <li><a href="{{ athlete.id }}">{{ athlete.name }}</a> | {{ athlete.position}} | </li>
+        {% endfor %}
+    </ul>
+-->
+
+
+
+
+{% endblock %}
+
+

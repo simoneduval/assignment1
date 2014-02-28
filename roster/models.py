@@ -2,37 +2,53 @@
 from django.db import models
 # Create your models here.
 
-class Student(models.Model):
+class Athlete(models.Model):
     name = models.CharField(unique=False, max_length=50)
-    pid = models.CharField(unique=True, max_length=12)
-    grade = models.IntegerField(unique=False, null=True, max_length=3)
-    #imageurl = models.ImageField(max_length =100)
+    position = models.CharField(unique=False, max_length=12)
+    year = models.CharField(unique=False, null=True, max_length=3)
+    hometown = models.CharField(unique=False, max_length=50)
+    highschool = models.CharField(unique=False, null=True, max_length=50)
+    imageurl = models.TextField(max_length =100)
     class Meta(object):
-        ordering = ('pid', 'name')
+        ordering = ('position', 'name')
         
     def __unicode__(self):
-        return U'%s %s' %(self.name, self.pid)
+        return U'%s %s' %(self.name, self.position)
 
 
-class Course(models.Model):
-    name = models.CharField(unique=True, max_length=50)
-    callnumber = models.CharField(unique=False, max_length=4)
-    instructor = models.CharField(max_length=50)
-    description = models.CharField(max_length=200)
-    term = models.CharField(max_length=50)
-    students = models.ManyToManyField(Student)
-    date = models.DateField();
+class Best(models.Model):
+    name = models.CharField(unique=False, max_length=50)
+    position = models.CharField(unique=False, max_length=12)
+    vault = models.CharField(unique=False, max_length=50)
+    uneven_bars = models.CharField(unique=False, max_length=50)
+    balance_beam = models.CharField(max_length=50)
+    floor_exercise = models.CharField(max_length=200)
+    all_around = models.CharField(max_length=50)
+    imageurl = models.TextField(max_length =100)
+    #athletes = models.ManyToManyField(Athlete)
 
     class Meta(object):
-        verbose_name_plural = "Courses"
-        ordering = ('-date','name',)
+        verbose_name_plural = "Bests"
+        ordering = ('vault','uneven_bars',)
         
     def __unicode__(self):
-        return U'%s | %s' %(self.callnumber, self.name)
+        return U'%s | %s' %(self.uneven_bars, self.vault)
+    
+class Personal(models.Model):
+    major = models.CharField(unique=False, max_length=50)
+    funny = models.CharField(unique=True, max_length=50)
+    age = models.IntegerField(unique=False, null=True, max_length=50)
+    met = models.CharField(unique=True, max_length=50)
+
+    class Meta(object):
+        ordering = ('major', 'funny')
+        
+    def __unicode__(self):
+        return U'%s %s' %(self.funny, self.major)
     
     def save(self, *args, **kwargs):
         self.name = self.name.upper()
-        super(Course, self).save(*args, **kwargs)
+        super(Best, self).save(*args, **kwargs)
         
 
     

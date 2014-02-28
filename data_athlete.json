@@ -1,1 +1,152 @@
-[{"pk":1, "model": "roster.Student", "fields":{ "name": "Kristen Aloi", "position": "All-Around", "year": "Senior", "hometown": "Winston-Salem, N.C.", "high school": "Mount Tabor", "imageURL": ""}}, {"pk":2, "model": "roster.Student", "fields":{ "name": "Margarent Brown", "position": "All-Around", "year": "Freshman", "hometown": "Waxhaw, N.C.", "high school": "Cuthbertson", "imageURL": ""}}, {"pk":3, "model": "roster.Student", "fields":{ "name": "Lexi Cappalli", "position": "All-Around", "year": "Sophomore", "hometown": "Killdeer, IL", "high school": "Adlai E. Stevenson", "imageURL": ""}}, {"pk":4, "model": "roster.Student", "fields":{ "name": "Acacia Consentino", "position": "Uneven Bars, Floor Exercise", "year": "Senior", "hometown": "Chagrin Falls, OH", "high school": "Lakota West", "imageURL": ""}}, {"pk":5, "model": "roster.Student", "fields":{ "name": "Michelle Ikoma", "position": "All-Around", "year": "Redshirt Senior", "hometown": "Naperville, IL", "high school": "Naperville", "imageURL": ""}}, {"pk":6, "model": "roster.Student", "fields":{ "name": "Jocelyn Mackey", "position": "All-Around", "year": "Sophomore", "hometown": "Lee's Summit, MO", "high school": "Lee's Summit North", "imageURL": ""}}, {"pk":7, "model": "roster.Student", "fields":{ "name": "Meredith Magjuka", "position": "Balance Beam, Floor Exercise", "year": "Redshirt Senior", "hometown": "Greenwood, IN", "high school": "Center Grove", "imageURL": ""}}, {"pk":8, "model": "roster.Student", "fields":{ "name": "Megan Marenghi", "position": "Uneven Bars, Balance Beam", "year": "Freshman", "hometown": "Plano, TX", "high school": "", "imageURL": ""}}, {"pk":9, "model": "roster.Student", "fields":{ "name": "Sarah Peterson", "position": "All-Around", "year": "Sophomore", "hometown": "Huntington, NY", "high school": "Elwood/John Glenn", "imageURL": ""}}, {"pk":10, "model": "roster.Student", "fields":{ "name": "Christina Pheil", "position": "All-Around", "year": "Freshman", "hometown": "St. Petersburg, FL", "high school": "St. Petersburg", "imageURL": ""}},]
+[
+    {
+        "pk":1,
+        "model": "roster.Athlete",
+        "fields":{
+            "name": "Kristen Aloi",
+            "position": "All-Around",
+            "year": "Senior",
+            "hometown": "Winston-Salem, N.C.",
+            "highschool": "Mount Tabor",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/VD/VDLSJRPEQPKBXWO.20131127180056.jpg"
+        }
+    },
+    {
+        "pk":2,
+        "model": "roster.Athlete",
+        "fields":{
+            "name": "Margarent Brown",
+            "position": "All-Around",
+            "year": "Freshman",
+            "hometown": "Waxhaw, N.C.",
+            "highschool": "Cuthbertson",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/IJ/IJPTHEHODHWRTYF.20131127180056.jpg"
+        }
+    },
+    {
+        "pk":3,
+        "model": "roster.Athlete",
+        "fields":{
+            "name": "Lexi Cappalli",
+            "position": "All-Around",
+            "year": "Sophomore",
+            "hometown": "Killdeer, IL",
+            "highschool": "Adlai E. Stevenson",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/ZY/ZYJEMBOGCNECEZF.20131127180056.jpg"
+        }
+    },
+    {
+        "pk":4,
+        "model": "roster.Athlete",
+        "fields":{
+            "name": "Acacia Consentino",
+            "position": "Uneven Bars, Floor Exercise",
+            "year": "Senior",
+            "hometown": "Chagrin Falls, OH",
+            "highschool": "Lakota West",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/MQ/MQSGIZZODICUIKS.20131127180056.jpg"
+        }
+    },
+    {
+        "pk":5,
+        "model": "roster.Athlete",
+        "fields":{
+            "name": "Michelle Ikoma",
+            "position": "All-Around",
+            "year": "Redshirt Senior",
+            "hometown": "Naperville, IL",
+            "highschool": "Naperville",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/SI/SIRQDWDCZTHIWCB.20131127180057.jpg"
+        }
+    },
+    {
+        "pk":6,
+        "model": "roster.Athlete",
+        "fields":{
+            "name": "Jocelyn Mackey",
+            "position": "All-Around",
+            "year": "Sophomore",
+            "hometown": "Lee's Summit, MO",
+            "highschool": "Lee's Summit North",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/MM/MMPOUVAEMBUTQCY.20131127180057.jpg"
+        }
+    },
+    {
+        "pk":7,
+        "model": "roster.Athlete",
+        "fields":{
+            "name": "Meredith Magjuka",
+            "position": "Balance Beam, Floor Exercise",
+            "year": "Redshirt Senior",
+            "hometown": "Greenwood, IN",
+            "highschool": "Center Grove",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/GW/GWOJWYZKVZIHFXH.20131127180057.jpg"
+        }
+    },
+    {
+        "pk":8,
+        "model": "roster.Athlete",
+        "fields":{
+            "name": "Megan Marenghi",
+            "position": "Uneven Bars, Balance Beam",
+            "year": "Freshman",
+            "hometown": "Plano, TX",
+            "highschool": "",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/EA/EASPLHGYHXVSREB.20131127180057.jpg"
+        }
+    },
+    {
+        "pk":9,
+        "model": "roster.Athlete",
+        "fields":{
+            "name": "Sarah Peterson",
+            "position": "All-Around",
+            "year": "Sophomore",
+            "hometown": "Huntington, NY",
+            "highschool": "Elwood/John Glenn",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/VO/VORSUWQJSZMXQQB.20131127180057.jpg"
+        }
+    },
+    {
+        "pk":10,
+        "model": "roster.Athlete",
+        "fields":{
+            "name": "Christina Pheil",
+            "position": "All-Around",
+            "year": "Freshman",
+            "hometown": "St. Petersburg, FL",
+            "highschool": "St. Petersburg",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/XG/XGVVMGKCUIEYTQC.20131127180057.jpg"
+        }
+    },
+     {
+        "pk":11,
+        "model": "roster.Athlete",
+        "fields":{
+            "name": "Janell Sargent",
+            "position": "Balance Beam",
+            "year": "Junior",
+            "hometown": "Greenville, NC",
+            "highschool": "N/A",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/UV/UVTCREJCKAUOSTW.20131127180057.jpg"
+        }
+    },
+     {
+        "pk":12,
+        "model": "roster.Athlete",
+        "fields":{
+            "name": "Haley Watts",
+            "position": "All-Around",
+            "year": "Junior",
+            "hometown": "Charlotte, NC",
+            "highschool": "Providence",
+            "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/FV/FVCWIDURUBFOLEG.20131127180057.jpg"
+        }
+    }
+]
+
+
+
+
+
+

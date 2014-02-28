@@ -1,0 +1,33 @@
+<!-- new file: assignment1/roster/templates/roster/best_list.html -->
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>All Personal Bests</h2>
+    <ul>
+        {% for best in bests %}
+        <!-- Each "best" is a best model object.-->
+        <li><a href="{{ best.id }}">{{ best.name }}</a> | {{ best.callnumber}}</li>
+        {% endfor %}
+    </ul>
+
+<div class="pagination">
+    <span class="step-links">
+        {% if bests.has_previous %}
+            <a href="?page={{ bests.previous_page_number }}">previous</a>
+        {% endif %}
+        
+        <span class="current">
+            Page {{ bests.number }} of {{ bests.paginator.num_pages }}.
+        </span>
+        
+        {% if bests.has_next %}
+            <a href="?page={{ bests.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+</div>
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,27 @@
+<!-- new file: roster/templates/roster/athlete.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Athlete: {{ athlete.name }}</h2>
+
+<div class="row">
+
+
+
+
+<div class="col-md-6">
+    <p>Details</p>
+    <ul>
+        <img src="{{ athlete.imageurl }}"/>
+        <li>Name: {{ athlete.name }}</li>
+        <li>Position: {{ athlete.position }}</li>
+        <li>Year: {{ athlete.year }}</li>
+        <li>Hometown: {{ athlete.hometown }}</li>
+        <li>High School: {{ athlete.highschool }}</li>
+            
+    
+    </ul>
+</div>
+</div>
+{% endblock %}
