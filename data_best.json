@@ -15,7 +15,7 @@
     },
     {
         "pk":2,
- "model": "roster.Best",
+        "model": "roster.Best",
         "fields":{
             "name": "Margaret Brown",
             "position": "All-Around",

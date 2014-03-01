@@ -1,3 +1,107 @@
 */ FILE assignment1/static_media/css/style.css */
 
 
+#header_image {
+    
+}
+
+
+/* DataTables */
+
+/* table#example.responsive.dataTable{
+	margin: 0 auto;
+	clear: both;
+	max-width: 100px;
+	 
+	/* float:left;
+	position: absolute; 
+} */
+
+
+.dataTables_wrapper {
+	position: relative;
+	clear: both;
+	*zoom: 1;
+	max-width: 100%;
+	margin-bottom: 10px;
+        
+}
+
+#table_id {
+    margin: auto;
+}
+
+#sports_table {
+    margin: auto;
+}
+th.sorting_asc, th.sorting {
+	background-color: #9AC0DA;
+	border:none;
+	border-bottom: none;	
+}
+
+div.dataTables_length {
+    float: left;
+   	color: #3B4A53;
+}
+
+
+
+table.dataTable tr.odd { background-color: #E2E4FF; }
+table.dataTable tr.even { background-color: white; }
+
+table.dataTable tr.odd td.sorting_1 { background-color: #D3D6FF; }
+table.dataTable tr.odd td.sorting_2 { background-color: #DADCFF; }
+table.dataTable tr.odd td.sorting_3 { background-color: #E0E2FF; }
+table.dataTable tr.even td.sorting_1 { background-color: #EAEBFF; }
+table.dataTable tr.even td.sorting_2 { background-color: #F2F3FF; }
+table.dataTable tr.even td.sorting_3 { background-color: #F9F9FF; }
+
+
+/* --- Searchbar -----------
+div.dataTables_filter {
+    float: right;
+    color: #3B4A53;
+}
+-------------------- */
+
+/* -- Displaying # of # -------
+div.dataTables_info {
+    float: left;
+    background-color: #fff;
+}
+-------*/
+
+/* Pages -----------------------
+div.dataTables_paginate {
+    float: right;
+    color: rgb(232, 221, 203);
+}
+-------*/
+
+div.dataTables_length,
+div.dataTables_filter,
+div.dataTables_paginate,
+div.dataTables_info {
+    /* padding-top: 3px;
+	padding-bottom: 3px;  */
+	
+	margin-bottom: 10px;
+}
+
+label {
+	margin-bottom: 5px;	
+}
+
+#table_bottom {
+	margin-bottom: 20px;
+	padding-bottom: 45px;
+}
+
+img {
+    height: 45%;
+}
+
+#sport_table {
+    
+}

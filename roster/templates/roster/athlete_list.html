@@ -7,9 +7,10 @@
     <table id="table_id">
     <thead>
         <tr>
-            <th>Player Name</th>
-            <th>Player Position</th>
-            <th>Player Year</th>
+            <th></th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Year</th>
         </tr>
     </thead>
     <tbody>
@@ -17,7 +18,7 @@
             
                 {% for athlete in athletes %}
                 <!--Each "athlete" is an athlete model object. -->
-                <tr><td><a href="{{ athlete.id }}"><img src="{{ athlete.imageurl }}"/></a></td><td><a href="{{ athlete.id }}">{{ athlete.name }}</a></td><td> {{ athlete.position}} </td><td> {{ athlete.year }}</td></tr>
+                <tr><td><a href="{{ athlete.id }}"><img src="{{ athlete.imageurl }}"/></a></td><td><a href="{{ athlete.id }}">{{ athlete.name }}</a></td><td> {{ athlete.position}}</td><td>{{ athlete.year }}</td></tr>
                 {% endfor %}
             
         

@@ -33,8 +33,12 @@ def bestList(request):
 
 def athlete(request, pk):
     #athlete = Athlete.objects.order_by('?')[0]
-    athlete = get_object_or_404(Athlete, id=pk)
-    return render(request, "roster/athlete.html", {'athlete': athlete})
+    
+    context = {
+        'athlete' : get_object_or_404(Athlete, id=pk),
+        'best' : get_object_or_404(Best, id=pk), 
+    }
+    return render(request, "roster/athlete.html", context)
 
 def athleteList(request):
     #athlete = Athlete.objects.order_by('?')[0]

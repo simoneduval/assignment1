@@ -3,7 +3,7 @@
 {% extends "base.html" %}
 
 {% block content %}
- <!-- Was trying to import highcharts as of 1:05AM on 02/28/13   
+ <!-- Was trying to import highcharts as of 1:05AM on 02/28/13  
     <script>
         $(function () { 
     $('#ath_chart').highcharts({
@@ -31,7 +31,7 @@
     });
 });
     </script>
-  -->
+--> 
     
 <h2>Athlete: {{ athlete.name }}</h2>
 
@@ -49,13 +49,13 @@
         <li>Year: {{ athlete.year }}</li>
         <li>Hometown: {{ athlete.hometown }}</li>
         <li>High School: {{ athlete.highschool }}</li>
-            
+         <li>Position2: {{ best.postion }}</li>   
     
     </ul>
 </div>
 </div>
 
-
+<!-- Was trying to import highcharts as of 1:05AM on 02/28/13 
 <div class="row">
     <div class="col-md-6">
         
@@ -64,5 +64,5 @@
     </div>
     
 </div>
-
+-->
 {% endblock %}
