@@ -1,22 +1,28 @@
 */ FILE assignment1/static_media/css/style.css */
 
 
+@font-face {
+    font-family: source-sans-pro;
+    src: url(fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
 #header_image {
     
 }
 
+body {
+    font-family: source-sans-pro;
+     background-color: #192E3D;
+}
+
+
+/*  */
+
+
+div.template-wrapper {
+    background-color: #fff;
+}
 
 /* DataTables */
-
-/* table#example.responsive.dataTable{
-	margin: 0 auto;
-	clear: both;
-	max-width: 100px;
-	 
-	/* float:left;
-	position: absolute; 
-} */
-
 
 .dataTables_wrapper {
 	position: relative;
@@ -48,15 +54,15 @@ div.dataTables_length {
 
 
 
-table.dataTable tr.odd { background-color: #E2E4FF; }
+table.dataTable tr.odd { background-color: #9AC0DA; }
 table.dataTable tr.even { background-color: white; }
 
-table.dataTable tr.odd td.sorting_1 { background-color: #D3D6FF; }
-table.dataTable tr.odd td.sorting_2 { background-color: #DADCFF; }
-table.dataTable tr.odd td.sorting_3 { background-color: #E0E2FF; }
-table.dataTable tr.even td.sorting_1 { background-color: #EAEBFF; }
-table.dataTable tr.even td.sorting_2 { background-color: #F2F3FF; }
-table.dataTable tr.even td.sorting_3 { background-color: #F9F9FF; }
+table.dataTable tr.odd td.sorting_1 { background-color: #9AC0DA; }
+table.dataTable tr.odd td.sorting_2 { background-color: #FFF; }
+table.dataTable tr.odd td.sorting_3 { background-color: #9AC0DA; }
+table.dataTable tr.even td.sorting_1 { background-color: #FFF; }
+table.dataTable tr.even td.sorting_2 { background-color: #9AC0DA; }
+table.dataTable tr.even td.sorting_3 { background-color: #FFF; }
 
 
 /* --- Searchbar -----------

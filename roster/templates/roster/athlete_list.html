@@ -2,7 +2,11 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h2>All Athletes</h2>
+    <h2>2014 Carolina Gymnastics Team</h2>
+    <div class="template-wrapper">
+    <img id="athlete_list_header_img" src="" />
+    
+    
     
     <table id="table_id">
     <thead>
@@ -38,18 +42,7 @@
         <iframe border="none" scrolling="no" src="map.html"></iframe>
     </div>
 
-
-    
- <!-- commenting out to try to see if works!   
-    <ul>
-        {% for athlete in athletes %}
-        <!--Each "athlete" is a athlete model object. -->
- <!-- commenting out to see if works!       
-        <li><a href="{{ athlete.id }}">{{ athlete.name }}</a> | {{ athlete.position}} | </li>
-        {% endfor %}
-    </ul>
--->
-
+    </div><!-- End template-wrapper class -->
 
 
 

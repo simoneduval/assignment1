@@ -3,7 +3,7 @@
 {% extends "base.html" %}
 
 {% block content %}
- <!-- Was trying to import highcharts as of 1:05AM on 02/28/13  
+ <!-- Highcharts --> 
     <script>
         $(function () { 
     $('#ath_chart').highcharts({
@@ -11,28 +11,26 @@
             type: 'bar'
         },
         title: {
-            text: 'Fruit Consumption'
+            text: 'Competitive Bests'
         },
         xAxis: {
-            categories: ['Apples', 'Bananas', 'Oranges']
+            categories: ['Vault', 'Uneven Bars', 'Balance Beam', 'Floor Exercise', 'All-Around']
         },
         yAxis: {
             title: {
-                text: 'Fruit eaten'
+                text: 'Performance'
             }
         },
         series: [{
             name: 'Jane',
-            data: [1, 0, 4]
-        }, {
-            name: 'John',
-            data: [5, 7, 3]
-        }]
+            data: [1, 0, 4,5, 5, 10]
+        } ]
     });
 });
     </script>
---> 
-    
+
+  
+<div class="template-wrapper">   
 <h2>Athlete: {{ athlete.name }}</h2>
 
 <div class="row">
@@ -55,7 +53,7 @@
 </div>
 </div>
 
-<!-- Was trying to import highcharts as of 1:05AM on 02/28/13 
+<!-- highcharts -->
 <div class="row">
     <div class="col-md-6">
         
@@ -65,4 +63,5 @@
     
 </div>
 -->
+</div> 
 {% endblock %}
