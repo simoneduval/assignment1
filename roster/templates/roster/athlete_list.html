@@ -11,6 +11,7 @@
             <th>Name</th>
             <th>Position</th>
             <th>Year</th>
+            <th>Hometown</th>
         </tr>
     </thead>
     <tbody>
@@ -18,21 +19,24 @@
             
                 {% for athlete in athletes %}
                 <!--Each "athlete" is an athlete model object. -->
-                <tr><td><a href="{{ athlete.id }}"><img src="{{ athlete.imageurl }}"/></a></td><td><a href="{{ athlete.id }}">{{ athlete.name }}</a></td><td> {{ athlete.position}}</td><td>{{ athlete.year }}</td></tr>
+                <tr><td><a href="{{ athlete.id }}"><img id="data_table" src="{{ athlete.imageurl }}"/></a></td><td><a href="{{ athlete.id }}">{{ athlete.name }}</a></td><td> {{ athlete.position}}</td><td>{{ athlete.year }}</td><td>{{ athlete.hometown }}</td></tr>
                 {% endfor %}
             
         
     </tbody>
 </table>
     
-   <a class="twitter-timeline" href="https://twitter.com/uncgymnastics" data-widget-id="439273343808581632">Tweets by @uncgymnastics</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-
-
-
-
-
+   <!-- Start Twitter widget --> 
+    <div class=".col-md-6">
+        <a class="twitter-timeline" href="https://twitter.com/uncgymnastics" data-widget-id="439273343808581632">Tweets by @uncgymnastics</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div> 
+    <!-- End Twitter widget -->
+    
+    <!-- Start Google Maps API -->
+    <div class=".col-md-6">
+        <iframe border="none" scrolling="no" src="map.html"></iframe>
+    </div>
 
 
     
