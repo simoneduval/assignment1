@@ -9,7 +9,8 @@ class Athlete(models.Model):
     hometown = models.CharField(unique=False, max_length=50)
     highschool = models.CharField(unique=False, null=True, max_length=50)
     bio = models.CharField(max_length=400)
-    imageurl = models.TextField(max_length =100)
+    imageurl = models.TextField(max_length=100)
+    video = models.TextField(max_length=100)
     
     class Meta(object):
         ordering = ('position', 'name' )

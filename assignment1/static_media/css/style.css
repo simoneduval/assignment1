@@ -15,6 +15,14 @@
     color: #101010;
 }
 
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: #101010;
+}
+
+ul.nav, .navbar-nav{
+    background-color: #222;
+}
+
 #ramses {
     width: 13%;
     margin-left: 0;
@@ -32,8 +40,14 @@ img.athlete_profile {
     margin-left: auto;
     margin-right: auto;
     width: inherit;
-    padding-top: 60px;
+    padding-top: 130px;
     padding-bottom: 15px;
+}
+
+.athlete_package {
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
 }
 
 div.template-wrapper {
@@ -63,10 +77,14 @@ a, a:hover, a:focus {
 
 a.twitter-timeline {
     float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .static_map {
     float: right;
+    margin-top: -250px;
+    margin-bottom: 25px;
     
 }
 
@@ -82,7 +100,7 @@ th.sorting_asc, th.sorting {
 	background-color: #fff;
 	border:none;
 	border-bottom: none;
-	text-align: center;
+	
 }
 
 div.dataTables_length {
@@ -166,4 +184,5 @@ img#sports_table {
   background-color: #222;
   border-color: #080808;
   margin: 0 auto;
+  display: block;
 }
