@@ -9,5 +9,5 @@ urlpatterns = patterns('',
     url(r'^athlete/$', views.athleteList, name='roster_athlete_list'),
     url(r'^best/(?P<pk>\d+)$', views.best, name='roster_best'),
     url(r'^athlete/(?P<pk>\d+)$', views.athlete, name='roster_athlete'),
-    #url(r'^$', views.map, name='roster_map')
+    #url(r'^$athlete/(?P<pk>\d+)$', views.athleteMap, name='roster_athlete_map')
     )

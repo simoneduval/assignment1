@@ -1,19 +1,21 @@
 */ FILE assignment1/static_media/css/style.css */
 
-
-@font-face {
-    font-family: source-sans-pro;
-    src: url(fonts/source-sans-pro/SourceSansPro-Regular.otf);
+#athlete_list_header_img {
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
-#header_image {
-    
+
+.navbar {
+    margin-bottom: 125px;
 }
 
 body {
-    font-family: source-sans-pro;
-     background-color: #192E3D;
+    
 }
 
+div, p, ul, li, td, th{
+    
+}
 
 /*  */
 
@@ -54,14 +56,14 @@ div.dataTables_length {
 
 
 
-table.dataTable tr.odd { background-color: #9AC0DA; }
+table.dataTable tr.odd { background-color: #FFF; }
 table.dataTable tr.even { background-color: white; }
 
-table.dataTable tr.odd td.sorting_1 { background-color: #9AC0DA; }
+table.dataTable tr.odd td.sorting_1 { background-color: #FFF; }
 table.dataTable tr.odd td.sorting_2 { background-color: #FFF; }
-table.dataTable tr.odd td.sorting_3 { background-color: #9AC0DA; }
+table.dataTable tr.odd td.sorting_3 { background-color: #FFF; }
 table.dataTable tr.even td.sorting_1 { background-color: #FFF; }
-table.dataTable tr.even td.sorting_2 { background-color: #9AC0DA; }
+table.dataTable tr.even td.sorting_2 { background-color: #FFF; }
 table.dataTable tr.even td.sorting_3 { background-color: #FFF; }
 
 
@@ -113,4 +115,18 @@ img#data_table {
 img#sports_table {
     height: 25%;
     padding: 5px;
+}
+
+.athlete-profile {
+    margin: 0 auto;
+}
+
+#footer {
+  position: absolute;
+  /*bottom: 0;*/
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #f5f5f5;
+  margin: 0 auto;
 }

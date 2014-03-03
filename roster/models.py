@@ -8,6 +8,7 @@ class Athlete(models.Model):
     year = models.CharField(unique=False, null=True, max_length=3)
     hometown = models.CharField(unique=False, max_length=50)
     highschool = models.CharField(unique=False, null=True, max_length=50)
+    bio = models.CharField(max_length=400)
     imageurl = models.TextField(max_length =100)
     
     class Meta(object):

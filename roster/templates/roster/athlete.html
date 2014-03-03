@@ -3,32 +3,7 @@
 {% extends "base.html" %}
 
 {% block content %}
- <!-- Highcharts --> 
-    <script>
-        $(function () { 
-    $('#ath_chart').highcharts({
-        chart: {
-            type: 'bar'
-        },
-        title: {
-            text: 'Competitive Bests'
-        },
-        xAxis: {
-            categories: ['Vault', 'Uneven Bars', 'Balance Beam', 'Floor Exercise', 'All-Around']
-        },
-        yAxis: {
-            title: {
-                text: 'Performance'
-            }
-        },
-        series: [{
-            name: 'Jane',
-            data: [1, 0, 4,5, 5, 10]
-        } ]
-    });
-});
-    </script>
-
+ 
   
 <div class="template-wrapper">   
 <h2>Athlete: {{ athlete.name }}</h2>
@@ -38,7 +13,7 @@
 
 
 
-<div class="col-md-6">
+<div class="col-md-6 athlete-profile">
     <p>Details</p>
     <ul>
         <img src="{{ athlete.imageurl }}"/>
@@ -47,7 +22,7 @@
         <li>Year: {{ athlete.year }}</li>
         <li>Hometown: {{ athlete.hometown }}</li>
         <li>High School: {{ athlete.highschool }}</li>
-         <li>Position2: {{ best.postion }}</li>   
+         <li>Bio: {{ athlete.bio }}</li>   
     
     </ul>
 </div>
@@ -56,12 +31,14 @@
 <!-- highcharts -->
 <div class="row">
     <div class="col-md-6">
-        
-        <div id="ath_chart" style="width:100%; height:400px;">       
+       <!--  {% for athlete in athletes %}
+                <!--Each "athlete" is an athlete model object. -->
+       <!--  <div id="ath_chart" style="width:100%; height:400px;">       
         </div>
+         {% endfor %} -->
     </div>
     
 </div>
--->
+
 </div> 
 {% endblock %}
