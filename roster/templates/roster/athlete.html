@@ -5,36 +5,33 @@
 {% block content %}
  
   
-<div class="template-wrapper">   
 
 
 <div class="row">
-
-
-
     
-    <div class=".col-md-8">
-        <div class="athlete_package">
-        <ul>
+    <div class=".col-md-6">        
             <img class="athlete_profile" src="{{ athlete.imageurl }}"/>
-            <h2>{{ athlete.name }}</h2>
+            
+    </div><!-- Close 6 columns --> 
+    <div class=".col-md-5" style="margin-top: 150px; margin-left: 50px;">        
+        <ul>
+            <b><h2>{{ athlete.name }}</h2></b>
             <li><b>Position:</b> {{ athlete.position }}</li>
             <li><b>Year:</b> {{ athlete.year }}</li>
             <li><b>Hometown:</b> {{ athlete.hometown }}</li>
             <li><b>High School:</b> {{ athlete.highschool }}</li>
             <li><b>Bio:</b> {{ athlete.bio }}</li>   
-
         </ul>
-        </div><!-- close athlete_package -->
-    </div><!--close 8 columns -->
-
-    <div class=".col-md-4 athlete_video">
-        <iframe width="400" height="225" src="{{ athlete.video }}"" frameborder="0" allowfullscreen></iframe>
-    </div><!-- close 4 columns -->
+    </div><!--close 6 columns -->
 
 </div><!-- close row -->
 
 
 
-</div> 
+<div class="row">
+ <div class=".col-md-4 athlete_video">
+        <iframe width="400" height="225" src="{{ athlete.video }}"" frameborder="0" allowfullscreen></iframe>
+    </div><!-- close 4 columns -->
+</div><!-- close row-->     
+
 {% endblock %}
