@@ -7,7 +7,7 @@
 
 .navbar {
     color: #101010;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .navbar-inverse {
@@ -21,6 +21,12 @@
 
 ul.nav, .navbar-nav{
     background-color: #222;
+    margin-top: 30px;
+    margin-left: -200px;
+}
+
+li.active {
+    background-color: inherit;
 }
 
 #ramses {
@@ -89,7 +95,7 @@ a.twitter-timeline {
 }
 
 #sports_table_wrapper {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 #sports_table {
     margin-left: auto;
@@ -185,4 +191,12 @@ img#sports_table {
   border-color: #080808;
   margin: 0 auto;
   display: block;
+}
+a#footer {
+    color: white;
+    display: inline;
+    padding-left: 50px;
+    padding-top: 40px;
+    float: right;
+    
 }
