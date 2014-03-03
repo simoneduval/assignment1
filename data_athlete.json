@@ -4,7 +4,7 @@
         "model": "roster.Athlete",
         "fields":{
             "name": "Kristen Aloi",
-            "position": "All-Around",
+            "position": " All-Around",
             "year": "Senior",
             "hometown": "Winston-Salem, N.C.",
             "highschool": "Mount Tabor",
@@ -17,7 +17,7 @@
         "model": "roster.Athlete",
         "fields":{
             "name": "Margarent Brown",
-            "position": "All-Around",
+            "position": " All-Around",
             "year": "Freshman",
             "hometown": "Waxhaw, N.C.",
             "highschool": "Cuthbertson",
@@ -30,7 +30,7 @@
         "model": "roster.Athlete",
         "fields":{
             "name": "Lexi Cappalli",
-            "position": "All-Around",
+            "position": " All-Around",
             "year": "Sophomore",
             "hometown": "Killdeer, IL",
             "highschool": "Adlai E. Stevenson",
@@ -43,7 +43,7 @@
         "model": "roster.Athlete",
         "fields":{
             "name": "Acacia Consentino",
-            "position": "Uneven Bars, Floor Exercise",
+            "position": " Uneven Bars, Floor Exercise",
             "year": "Senior",
             "hometown": "Chagrin Falls, OH",
             "highschool": "Lakota West",
@@ -56,7 +56,7 @@
         "model": "roster.Athlete",
         "fields":{
             "name": "Michelle Ikoma",
-            "position": "All-Around",
+            "position": " All-Around",
             "year": "Redshirt Senior",
             "hometown": "Naperville, IL",
             "highschool": "Naperville",
@@ -69,7 +69,7 @@
         "model": "roster.Athlete",
         "fields":{
             "name": "Josselyn Mackey",
-            "position": "All-Around",
+            "position": " All-Around",
             "year": "Sophomore",
             "hometown": "Lee's Summit, MO",
             "highschool": "Lee's Summit North",
@@ -82,7 +82,7 @@
         "model": "roster.Athlete",
         "fields":{
             "name": "Meredith Magjuka",
-            "position": "Balance Beam, Floor Exercise",
+            "position": " Balance Beam, Floor Exercise",
             "year": "Redshirt Senior",
             "hometown": "Greenwood, IN",
             "highschool": "Center Grove",
@@ -95,7 +95,7 @@
         "model": "roster.Athlete",
         "fields":{
             "name": "Megan Marenghi",
-            "position": "Uneven Bars, Balance Beam",
+            "position": " Uneven Bars, Balance Beam",
             "year": "Freshman",
             "hometown": "Plano, TX",
             "highschool": "",
@@ -108,7 +108,7 @@
         "model": "roster.Athlete",
         "fields":{
             "name": "Sarah Peterson",
-            "position": "All-Around",
+            "position": " All-Around",
             "year": "Sophomore",
             "hometown": "Huntington, NY",
             "highschool": "Elwood/John Glenn",
@@ -121,7 +121,7 @@
         "model": "roster.Athlete",
         "fields":{
             "name": "Christina Pheil",
-            "position": "All-Around",
+            "position": " All-Around",
             "year": "Freshman",
             "hometown": "St. Petersburg, FL",
             "highschool": "St. Petersburg",
@@ -134,7 +134,7 @@
         "model": "roster.Athlete",
         "fields":{
             "name": "Janell Sargent",
-            "position": "Balance Beam",
+            "position": " Balance Beam",
             "year": "Junior",
             "hometown": "Greenville, NC",
             "highschool": "N/A",
@@ -147,7 +147,7 @@
         "model": "roster.Athlete",
         "fields":{
             "name": "Haley Watts",
-            "position": "All-Around",
+            "position": " All-Around",
             "year": "Junior",
             "hometown": "Charlotte, NC",
             "highschool": "Providence",
@@ -169,7 +169,7 @@
         "model": "roster.Athlete",
         "fields":{
             "name": "Amy Smith",
-            "position": "Assistant Coach, Choreographer, Recruiting Coordinator",
+            "position": "Assistant Coach",
             "imageurl": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/EV/EVFOWLRVDGGBJTE.20121018191808.jpg"
             
         }

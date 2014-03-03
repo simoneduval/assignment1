@@ -40,7 +40,7 @@ $(document).ready(function() {
     });
 });
         
- /*       
+     
         
         function writeChart1(){
 	console.log("Inside writeChart()");
@@ -102,4 +102,3 @@ $(document).ready(function() {
 
 
 }
-*/

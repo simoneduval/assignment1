@@ -12,10 +12,10 @@ class Athlete(models.Model):
     imageurl = models.TextField(max_length =100)
     
     class Meta(object):
-        ordering = ('position', 'name')
+        ordering = ('position', 'name' )
         
     def __unicode__(self):
-        return U'%s %s' %(self.name, self.position)
+        return U'%s %s' %(self.position, self.name)
 
 
 class Best(models.Model):
