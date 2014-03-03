@@ -1,21 +1,28 @@
 */ FILE assignment1/static_media/css/style.css */
 
 .container {
-    padding-bottom: 50px;
-    background-color: #101010;
+    
+    
 }
 
 .navbar {
+    color: #101010;
+    padding-bottom: 50px;
+}
+
+.navbar-inverse {
     margin-bottom: 125px;
-    background-color: #101010;
+    color: #101010;
 }
 
 #ramses {
-    height: 50%;
+    width: 13%;
+    margin-left: 0;
+    top: 0;
 }
 
 img#header_img {
-    padding-top: 70px;
+    padding-top: 120px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -25,7 +32,7 @@ img.athlete_profile {
     margin-left: auto;
     margin-right: auto;
     width: inherit;
-    padding-top: 10px;
+    padding-top: 60px;
     padding-bottom: 15px;
 }
 
@@ -50,22 +57,37 @@ a, a:hover, a:focus {
 }
 
 #table_id {
-    margin: auto;
+    margin: 0 auto;
     max-width: 100%;
 }
 
+a.twitter-timeline {
+    float: left;
+}
+
+.static_map {
+    float: right;
+    
+}
+
+#sports_table_wrapper {
+    margin-top: 100px;
+}
 #sports_table {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
 }
 th.sorting_asc, th.sorting {
-	background-color: #9AC0DA;
+	background-color: #fff;
 	border:none;
-	border-bottom: none;	
+	border-bottom: none;
+	text-align: center;
 }
 
 div.dataTables_length {
-    float: left;
-   	color: #3B4A53;
+	text-align: center;
+   	color: #fff;
 }
 
 
@@ -141,6 +163,7 @@ img#sports_table {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 100px;
-  background-color: #101010;
+  background-color: #222;
+  border-color: #080808;
   margin: 0 auto;
 }
